@@ -11,6 +11,7 @@ Easy to use:
 import autodiff as ad
 import numpy as np
 
+# define some functions:
 def f(x):
     return 2 * (x**2)
 
@@ -27,3 +28,6 @@ if __name__ == '__main__':
     print(dg([0, 0])) # [6(0), 2] = [0, 2]
     print(dg(np.array([5, 92]))) # [6(5), 2] = [30, 2]
 ```
+
+Notes:
+* Autodiff can take functions with multiple arguments, but will only differentiate with respect to the first one.
