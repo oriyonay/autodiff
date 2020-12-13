@@ -7,7 +7,7 @@ Features:
 * NumPy Compatible
 
 Easy to use:
-'''python
+```python
 import autodiff as ad
 import numpy as np
 
@@ -26,4 +26,4 @@ if __name__ == '__main__':
     print(df(5)) # 4(5) = 20
     print(dg([0, 0])) # [6(0), 2] = [0, 2]
     print(dg(np.array([5, 92]))) # [6(5), 2] = [30, 2]
-'''
+```
