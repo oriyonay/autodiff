@@ -1,12 +1,12 @@
 # Autodiff
 An automatic multidimensional differentiator in python :)
 
-Features:
+**Features**:
 * Supports multidimensional differentiation
 * Returns a gradient function
 * NumPy Compatible
 
-Easy to use:
+**Easy to use**:
 ```python
 import autodiff as ad
 import numpy as np
@@ -29,5 +29,5 @@ if __name__ == '__main__':
     print(dg(np.array([5, 92]))) # [6(5), 2] = [30, 2]
 ```
 
-Notes:
+**Notes**:
 * Autodiff can take functions with multiple arguments, but will only differentiate with respect to the first one.
