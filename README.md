@@ -1,5 +1,5 @@
 # Autodiff
-An automatic multidimensional differentiator in python :)
+An automatic, lightweight, multidimensional differentiator in python :)
 
 **Features**:
 * Supports multidimensional differentiation
