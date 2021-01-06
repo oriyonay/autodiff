@@ -1,4 +1,5 @@
 # Autodiff
+**NOTE: AUTODIFF IS NOW A PART OF [KIWIML](https://github.com/oriyonay/kiwiml/)**
 An automatic, lightweight, multidimensional differentiator in python :)
 
 **Features**:
